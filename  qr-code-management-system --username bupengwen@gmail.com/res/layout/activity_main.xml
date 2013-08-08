@@ -1,0 +1,41 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".login.LoginActivity" >
+
+    <EditText
+        android:id="@+id/userPassTxt"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="170dp"
+        android:inputType="text"
+        android:text="@string/password"
+        android:textColor="@color/gray"
+        android:textSize="@dimen/big"
+        android:typeface="serif" >
+    </EditText>
+
+    <Button
+        android:id="@+id/loginBtn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/userPassTxt"
+        android:layout_marginTop="60sp"
+        android:text="@string/login"
+        android:textSize="@dimen/big"
+        android:textStyle="bold"
+        android:typeface="serif" />
+
+    <EditText
+        android:id="@+id/userNameTxt"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100sp"
+        android:inputType="textEmailAddress"
+        android:text="@string/userName"
+        android:textColor="@color/gray"
+        android:textSize="@dimen/big"
+        android:typeface="serif" />
+
+</RelativeLayout>
